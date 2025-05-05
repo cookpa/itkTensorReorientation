@@ -95,7 +95,7 @@ underestimate the rotation.
 
 ## Conclusions
 
-It would be better to use the composite transform for reorentation, rather than a single
+It would be better to use the composite transform for reorientation, rather than a single
 warp field. ITK will then use the affine transform for the affine part, which should be
 more accurate if there are large global rotations.
 
